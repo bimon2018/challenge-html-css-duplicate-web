@@ -1,0 +1,78 @@
+/* :root {
+  --primary: #b6895b;
+  --bg: #010101;
+
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+@font-face { 
+  font-family: Gilroy-Regular; 
+  src: url("../assets/fonts/Gilroy-Regular.woff") format("woff");
+} 
+
+@font-face { 
+  font-family: Gilroy-Bold;
+  src: url("../assets/fonts/Gilroy-Bold.woff") format("woff"); 
+  /* font-weight: bold; */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gilroy-Regular", sans-serif;
+  /* min-height: 9000px; */
+}
+
+.bg-main {
+  background-image: url("../assets/images/main-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bg-top {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.bg-nav {
+  max-width: 1140px;
+  margin: auto;
+  font-family: Gilroy-Regular;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pojok-kiri {
+  display: flex;
+
+}
+
+.icon-nav {
+  display: flex;
+  font-size: 0.875rem;
+}
+
+.icon-img{
+  width: 20px;
+  height: 20px;
+}
+
+.icon-text {
+  color: rgba(255, 255, 255, 1);
+  margin-left: 0.5rem ;
+}
