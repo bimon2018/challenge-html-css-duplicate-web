@@ -50,14 +50,14 @@ body {
 .bg-nav {
   max-width: 1140px;
   margin: auto;
-  font-family: Gilroy-Regular;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   display: flex;
   justify-content: space-between;
 }
 
-.pojok-kiri {
+.pojok-kiri,
+.pojok-kanan {
   display: flex;
 
 }
@@ -70,9 +70,55 @@ body {
 .icon-img{
   width: 20px;
   height: 20px;
+  margin-left: 1rem;
 }
 
 .icon-text {
   color: rgba(255, 255, 255, 1);
   margin-left: 0.5rem ;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#img-sinarmas-futures {
+  height: 4rem;
+  max-width: 100%;
+}
+
+.sub-text {
+  font-size: 1rem;
+  text-shadow: 0px 4px 14px rgb(0 0 0 / 50%);
+  font-family: "Gilroy-Bold";
+  color: rgba(255, 255, 255, 1);
+  margin-top: 8rem;
+}
+
+.hero {
+  font-size: 3.5rem;
+  width:100%;
+}
+
+
+
+/* MEDIA QUERIES  */
+@media (min-width: 1024px){
+  /* #img-sinarmas-futures {
+      height: 4rem;
+  } */
+
+  .sub-text {
+    margin-top: 5rem;
+  }
+  .hero {
+    width: 66.67%;
+  }
+}
+
+@media (min-width: 1024px){
+  #img-sinarmas-futures {
+      padding-top: 0.5rem;
+  }
 }
