@@ -88,8 +88,9 @@ body {
 }
 
 #img-sinarmas-futures {
-  height: 4rem;
+  /* height: 4rem; */
   margin-top: 2.5rem;
+  width: 35%;
 }
 
 .sub-text {
@@ -105,8 +106,10 @@ body {
   width:100%;
 
   text-shadow: 0px 4px 14px rgb(0 0 0 / 50%);
+  
   font-family: "Gilroy-Bold";
   color: var(--primary);
+
 }
 
 .card-container-01 {
@@ -171,7 +174,8 @@ body {
 }
 
 .image-person-container {
-  padding-right: 80px;
+  /* padding-right: 80px; */
+  text-align: center;
 }
 
 .about-header-text{
@@ -301,6 +305,7 @@ body {
 .showcase-box {
   display: grid;
   grid-template-columns: .2fr repeat(1, 1fr);
+  margin-bottom: 2rem;
 }
 
 .showcase-text-container{
@@ -434,6 +439,7 @@ body {
   }
   #img-sinarmas-futures {
     margin-top: 0.5rem;
+    width: 25%;
   }
 
 
@@ -528,8 +534,31 @@ body {
 }
 
 
-@media only screen and (max-device-width: 768px){
+
+
+/* @media only screen and (min-device-width: 640px){ */
+@media only screen and (max-width: 640px){
   .container {
       padding: 0px 16px;
   }
+
+  #img-sinarmas-futures {
+    width: 45%;
+  }
+
 }
+
+@media only screen and (max-width: 375px){
+  .hero-text {
+    font-size: 28px;
+  }
+
+  #img-sinarmas-futures {
+    width: 50%;
+  }
+
+  
+}
+
+
+
